@@ -1,0 +1,12 @@
+spring.application.name=AD05_TareaEvaluativa
+
+spring.datasource.url=jdbc:oracle:thin:@localhost:1521/XEPDB1
+spring.datasource.username=LAURA_AD05
+spring.datasource.password=CONTRASEÑA
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.OracleDialect
+
+server.port=8085
