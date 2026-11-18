@@ -41,31 +41,24 @@ public class Paso {
     public Long getId() {
         return id;
     }
-
     public void setId(Long id) {
         this.id = id;
     }
-
     public Integer getNumeroOrden() {
         return numeroOrden;
     }
-
     public void setNumeroOrden(Integer numeroOrden) {
         this.numeroOrden = numeroOrden;
     }
-
     public String getDescripcion() {
         return descripcion;
     }
-
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
-
     public Receta getReceta() {
         return receta;
     }
-
     public void setReceta(Receta receta) {
         this.receta = receta;
     }
